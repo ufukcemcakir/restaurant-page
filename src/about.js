@@ -3,7 +3,7 @@ function createAbout(){
     about.classList.add("about");
 
     const aboutContent = document.createElement('p');
-    aboutContent.textContent = 'Aşkımla Biz';
+    aboutContent.textContent = 'Biz';
 
     about.appendChild(aboutContent);
 
@@ -11,7 +11,7 @@ function createAbout(){
 }
 
 function loadAbout(){
-    const main = document.getElementById("main");
+    const about = document.getElementById("main");
     about.textContent = "";
     about.appendChild(createAbout());
 }
